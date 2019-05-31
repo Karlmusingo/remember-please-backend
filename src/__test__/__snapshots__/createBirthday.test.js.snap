@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BirthdayList snapshot Should match the snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <BirthdayList
+    events={Object {}}
+    onFetchEvents={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;
+
+exports[`BirthdayList snapshot with props Should match the snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <BirthdayList
+    events={
+      Object {
+        "other": Object {
+          "events": Array [],
+          "eventsCount": 0,
+        },
+        "thisWeek": Object {
+          "events": Array [],
+          "eventsCount": 0,
+        },
+        "todays": Object {
+          "events": Array [
+            Object {
+              "Messages": Array [
+                Object {
+                  "draft": true,
+                },
+                Object {
+                  "draft": false,
+                },
+              ],
+            },
+          ],
+          "eventsCount": 0,
+        },
+      }
+    }
+    onFetchEvents={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

@@ -1,0 +1,414 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component Should match the snapshot 1`] = `
+<div>
+  <div
+    className="app"
+  >
+    <div
+      className="title"
+    >
+      <h3>
+        REMEMBER PLEASE
+      </h3>
+      <span>
+         NEVER FORGET A BIRTHDAY AGAIN
+      </span>
+    </div>
+    <div
+      className="start col-10 .ml-2 col-offset-2"
+    >
+      <Link
+        to="/home"
+      >
+        <button
+          className="btn col-12 btn-lg btn-success"
+        >
+          START
+        </button>
+      </Link>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Button component Should match the snapshot 1`] = `
+<button
+  className="btn col-5 btn-lg btn-undefined"
+/>
+`;
+
+exports[`Hr component Should match the snapshot 1`] = `
+<hr
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "color": "#f5f5f5",
+      "margin": "1px",
+    }
+  }
+/>
+`;
+
+exports[`Hr component Should match the snapshot 2`] = `
+<div
+  className="form-group"
+>
+  <label
+    style={
+      Object {
+        "marginBottom": "-18px",
+        "marginLeft": "10px",
+      }
+    }
+  />
+  <input
+    className="form-control"
+    style={
+      Object {
+        "border": "none",
+        "borderBottom": "2px solid #f5f5f5",
+      }
+    }
+    type="text"
+  />
+</div>
+`;
+
+exports[`Hr component Should match the snapshot 3`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <span>
+    John Doe
+  </span>
+  <FontAwesomeIcon
+    border={false}
+    className=""
+    fixedWidth={false}
+    flip={null}
+    icon="plus-circle"
+    inverse={false}
+    listItem={false}
+    mask={null}
+    pull={null}
+    pulse={false}
+    rotation={null}
+    size={null}
+    spin={false}
+    style={
+      Object {
+        "color": "black",
+      }
+    }
+    symbol={false}
+    title=""
+    transform={null}
+  />
+</div>
+`;
+
+exports[`Hr component Should match the snapshot 4`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <span>
+    John Doe
+  </span>
+  <FontAwesomeIcon
+    border={false}
+    className=""
+    fixedWidth={false}
+    flip={null}
+    icon="check-circle"
+    inverse={false}
+    listItem={false}
+    mask={null}
+    pull={null}
+    pulse={false}
+    rotation={null}
+    size={null}
+    spin={false}
+    style={
+      Object {
+        "color": "green",
+      }
+    }
+    symbol={false}
+    title=""
+    transform={null}
+  />
+</div>
+`;
+
+exports[`Hr component Should match the snapshot 5`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <span>
+    John Doe
+  </span>
+  <FontAwesomeIcon
+    border={false}
+    className=""
+    fixedWidth={false}
+    flip={null}
+    icon="pen-square"
+    inverse={false}
+    listItem={false}
+    mask={null}
+    pull={null}
+    pulse={false}
+    rotation={null}
+    size={null}
+    spin={false}
+    style={
+      Object {
+        "color": "#8a6d15",
+      }
+    }
+    symbol={false}
+    title=""
+    transform={null}
+  />
+</div>
+`;
+
+exports[`Hr component Should match the snapshot 6`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <span>
+    John Doe
+  </span>
+  <FontAwesomeIcon
+    border={false}
+    className=""
+    fixedWidth={false}
+    flip={null}
+    icon={null}
+    inverse={false}
+    listItem={false}
+    mask={null}
+    pull={null}
+    pulse={false}
+    rotation={null}
+    size={null}
+    spin={false}
+    style={
+      Object {
+        "color": undefined,
+      }
+    }
+    symbol={false}
+    title=""
+    transform={null}
+  />
+</div>
+`;
+
+exports[`Navbar component Should match the snapshot 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "alignText": "center",
+      "background": "#ffc3b8",
+      "color": "#fff",
+    }
+  }
+>
+  <div
+    className="row"
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-between",
+        "padding": "10px 25px 0px 20px",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "color": "#fff",
+        }
+      }
+    >
+      <p
+        onClick={[Function]}
+      >
+        Cancel
+      </p>
+    </div>
+    <div>
+      <span>
+         
+         
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NewMessage component Should match the snapshot 1`] = `
+<div>
+  <Navbar
+    title="New Message"
+  />
+  <div
+    className="container"
+    style={
+      Object {
+        "alignText": "center",
+        "background": "#f5f5f5",
+        "color": "#000",
+      }
+    }
+  >
+    <div
+      className="row"
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "space-between",
+          "padding": "10px 25px 10px 20px",
+        }
+      }
+    >
+      <div>
+        <span
+          style={
+            Object {
+              "color": "#888",
+            }
+          }
+        >
+          Send to: 
+        </span>
+         
+        <br />
+        <span>
+          Karl M
+           
+        </span>
+      </div>
+      <div>
+        <span
+          style={
+            Object {
+              "color": "#888",
+            }
+          }
+        >
+          Sending date: 
+        </span>
+         
+        <br />
+        <span>
+          12/04/2000
+           
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="container"
+    style={
+      Object {
+        "marginBottom": "30px",
+        "marginTop": "20px",
+      }
+    }
+  >
+    <p
+      className="text"
+    >
+      Compose your Birthday message here:
+    </p>
+    <Hr />
+    <TextAreA
+      height="370px"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "justifyContent": "space-around",
+        "marginTop": "15px",
+      }
+    }
+  >
+    <Button
+      color="secondary"
+    >
+      <Link
+        style={
+          Object {
+            "color": "#fff",
+            "display": "block",
+            "height": "100%",
+            "textDecoration": "none",
+          }
+        }
+        to="/"
+      >
+        Save
+      </Link>
+    </Button>
+    <Button
+      color="success"
+    >
+      <Link
+        style={
+          Object {
+            "color": "#fff",
+            "display": "block",
+            "height": "100%",
+            "textDecoration": "none",
+          }
+        }
+        to="/home"
+      >
+        Done
+      </Link>
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`textArea component Should match the snapshot 1`] = `
+<textarea
+  className="form-control"
+  name="message"
+  placeholder="My message"
+  style={
+    Object {
+      "border": "none",
+      "borderBottom": "2px solid #f5f5f5",
+      "height": undefined,
+    }
+  }
+/>
+`;
