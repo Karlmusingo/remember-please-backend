@@ -45,10 +45,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "coveralls": "nyc report --reporter=text-lcov | nyc --reporter=html --reporter=text react-scripts test --env=jsdom --coverage",
-    "test": "nyc report --reporter=text-lcov | nyc --reporter=html jest --env=jsdom --coverage",
-    "eject": "react-scripts eject",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "jest --detectOpenHandles --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "jest --coverage",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
