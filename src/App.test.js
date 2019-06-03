@@ -40,6 +40,14 @@ describe("Navbar component", () => {
     expect(wrapper.find("div").length).toEqual(4);
     expect(wrapper).toMatchSnapshot();
   });
+  test("Should redirect", () => {
+    const historyMock = { push: jest.fn() };
+    const wrapper = shallow(<Navbar history={historyMock} />);
+
+    wrapper.find("#btn-cancel").simulate("click");
+
+    expect(historyMock.push).toHaveBeenCalled();
+  });
 });
 
 describe("NewMessage component", () => {

@@ -21,6 +21,7 @@ class Navbar extends Component {
               onClick={e => {
                 this.props.history.push("/home");
               }}
+              id="btn-cancel"
             >
               Cancel
             </p>
