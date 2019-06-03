@@ -56,7 +56,7 @@ describe("NewMessage component", () => {
     expect(wrapper).toMatchSnapshot();
   });
 });
- 
+
 describe("Button component", () => {
   test("Should match the snapshot", () => {
     const wrapper = shallow(<Button />);
