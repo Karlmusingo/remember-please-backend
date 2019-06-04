@@ -1,0 +1,481 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BirthdayList snapshot Should match the snapshot 1`] = `
+<ContextProvider
+  value={null}
+>
+  <BirthdayList
+    events={Object {}}
+    onFetchEvents={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;
+
+exports[`BirthdayList snapshot with props Should match the snapshot 1`] = `
+<Connect(BirthdayList)
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <BirthdayList
+    events={
+      Object {
+        "other": Object {
+          "events": Array [
+            Object {
+              "Messages": Array [
+                Object {
+                  "draft": true,
+                },
+                Object {
+                  "draft": false,
+                },
+              ],
+              "id": 3,
+            },
+          ],
+          "eventsCount": 0,
+        },
+        "thisWeek": Object {
+          "events": Array [
+            Object {
+              "Messages": Array [
+                Object {
+                  "draft": true,
+                },
+                Object {
+                  "draft": false,
+                },
+              ],
+              "id": 1,
+            },
+          ],
+          "eventsCount": 1,
+        },
+        "todays": Object {
+          "events": Array [
+            Object {
+              "Messages": Array [
+                Object {
+                  "draft": true,
+                },
+                Object {
+                  "draft": false,
+                },
+              ],
+              "id": 2,
+            },
+          ],
+          "eventsCount": 1,
+        },
+      }
+    }
+    onFetchEvents={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <div>
+      <Navbar
+        title="Birthday List"
+      >
+        <div
+          className="container"
+          style={
+            Object {
+              "alignText": "center",
+              "background": "#ffc3b8",
+              "color": "#fff",
+            }
+          }
+        >
+          <div
+            className="row"
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "space-between",
+                "padding": "10px 25px 0px 20px",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "color": "#fff",
+                }
+              }
+            >
+              <p
+                id="btn-cancel"
+                onClick={[Function]}
+              >
+                Cancel
+              </p>
+            </div>
+            <div>
+              <span>
+                 
+                Birthday List
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+      </Navbar>
+      <div
+        className="container"
+      >
+        <div
+          style={
+            Object {
+              "padding": "5px",
+            }
+          }
+        >
+          <b>
+            TODAY
+          </b>
+           
+          <span
+            className="badge badge-success text-sm"
+          >
+            1
+          </span>
+        </div>
+        <Birthday
+          key="2"
+          status="done"
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <span>
+              John Doe
+            </span>
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon="check-circle"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              style={
+                Object {
+                  "color": "green",
+                }
+              }
+              symbol={false}
+              title=""
+              transform={null}
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-check-circle fa-w-16 "
+                data-icon="check-circle"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={
+                  Object {
+                    "color": "green",
+                  }
+                }
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </FontAwesomeIcon>
+          </div>
+        </Birthday>
+        <div
+          style={
+            Object {
+              "padding": "5px",
+            }
+          }
+        >
+          <b>
+            TOMORROW
+          </b>
+           
+          <span
+            className="badge badge-success text-sm"
+          >
+            1
+          </span>
+        </div>
+        <Hr>
+          <hr
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "color": "#f5f5f5",
+                "margin": "1px",
+              }
+            }
+          />
+        </Hr>
+        <Birthday
+          key="1"
+          status="done"
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <span>
+              John Doe
+            </span>
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon="check-circle"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              style={
+                Object {
+                  "color": "green",
+                }
+              }
+              symbol={false}
+              title=""
+              transform={null}
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-check-circle fa-w-16 "
+                data-icon="check-circle"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={
+                  Object {
+                    "color": "green",
+                  }
+                }
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </FontAwesomeIcon>
+          </div>
+        </Birthday>
+        <div
+          style={
+            Object {
+              "padding": "5px",
+            }
+          }
+        >
+          <b>
+            THIS MONTH
+          </b>
+           
+          <span
+            className="badge badge-success text-sm"
+          >
+            0
+          </span>
+        </div>
+        <Hr>
+          <hr
+            style={
+              Object {
+                "backgroundColor": "#fff",
+                "color": "#f5f5f5",
+                "margin": "1px",
+              }
+            }
+          />
+        </Hr>
+        <Birthday
+          key="3"
+          status="done"
+        >
+          <div
+            style={
+              Object {
+                "display": "flex",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <span>
+              John Doe
+            </span>
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon="check-circle"
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              style={
+                Object {
+                  "color": "green",
+                }
+              }
+              symbol={false}
+              title=""
+              transform={null}
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-check-circle fa-w-16 "
+                data-icon="check-circle"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={
+                  Object {
+                    "color": "green",
+                  }
+                }
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </FontAwesomeIcon>
+          </div>
+        </Birthday>
+      </div>
+      <div
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon="plus-circle"
+          id="create"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          onClick={[Function]}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size={null}
+          spin={false}
+          style={
+            Object {
+              "bottom": "15px",
+              "color": "red",
+              "fontSize": "50px",
+              "position": "fixed",
+              "right": "20px",
+            }
+          }
+          symbol={false}
+          title=""
+          transform={null}
+        >
+          <svg
+            aria-hidden="true"
+            className="svg-inline--fa fa-plus-circle fa-w-16 "
+            data-icon="plus-circle"
+            data-prefix="fas"
+            focusable="false"
+            id="create"
+            onClick={[Function]}
+            role="img"
+            style={
+              Object {
+                "bottom": "15px",
+                "color": "red",
+                "fontSize": "50px",
+                "position": "fixed",
+                "right": "20px",
+              }
+            }
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"
+              fill="currentColor"
+              style={Object {}}
+            />
+          </svg>
+        </FontAwesomeIcon>
+      </div>
+    </div>
+  </BirthdayList>
+</Connect(BirthdayList)>
+`;

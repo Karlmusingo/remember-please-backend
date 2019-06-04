@@ -92,6 +92,7 @@ class BirthdayList extends Component {
         </div>
         <div style={{ position: "relative" }}>
           <FontAwesomeIcon
+            id="create"
             onClick={e => {
               this.props.history.push("/create-birthday");
             }}

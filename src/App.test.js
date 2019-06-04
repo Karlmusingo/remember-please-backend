@@ -13,7 +13,6 @@ import Button from "./components/button";
 import TextArea from "./components/textArea";
 import NewMessage from "./components/newMessage";
 import Navbar from "./components/navbar";
-import CreateBirthday from "./components/createBirthday";
 
 describe("App component", () => {
   test("Should match the snapshot", () => {
@@ -49,7 +48,7 @@ describe("Navbar component", () => {
     expect(historyMock.push).toHaveBeenCalled();
   });
 });
- 
+
 describe("NewMessage component", () => {
   test("Should match the snapshot", () => {
     const wrapper = shallow(<NewMessage />);
